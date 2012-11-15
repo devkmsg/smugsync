@@ -14,4 +14,6 @@ Gem::Specification.new do |gem|
   gem.name          = "smugsync"
   gem.require_paths = ["lib"]
   gem.version       = Smugsync::VERSION
+
+  gem.add_dependency 'smile', :git => 'git://github.com/netengr2009/smile.git'
 end
