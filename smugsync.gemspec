@@ -14,7 +14,4 @@ Gem::Specification.new do |gem|
   gem.name          = "smugsync"
   gem.require_paths = ["lib"]
   gem.version       = Smugsync::VERSION
-  gem.add_dependency 'thor'
-  gem.add_dependency 'faraday'
-  gem.add_development_dependency 'rake'
 end
